@@ -1,0 +1,15 @@
+C:\3ddddddddddd\App1\App1\bin\Debug\resources.pri
+C:\3ddddddddddd\App1\App1\bin\Debug\AppxManifest.xml
+C:\3ddddddddddd\App1\App1\bin\Debug\App1.build.appxrecipe
+C:\3ddddddddddd\App1\App1\bld\Debug\priconfig.xml
+C:\3ddddddddddd\App1\App1\bld\Debug\priconfig.xml.intermediate
+C:\3ddddddddddd\App1\App1\bld\Debug\layout.resfiles
+C:\3ddddddddddd\App1\App1\bld\Debug\layout.resfiles.intermediate
+C:\3ddddddddddd\App1\App1\bld\Debug\resources.resfiles
+C:\3ddddddddddd\App1\App1\bld\Debug\resources.resfiles.intermediate
+C:\3ddddddddddd\App1\App1\bld\Debug\pri.resfiles
+C:\3ddddddddddd\App1\App1\bld\Debug\pri.resfiles.intermediate
+C:\3ddddddddddd\App1\App1\bld\Debug\qualifiers.txt
+C:\3ddddddddddd\App1\App1\bld\Debug\qualifiers.txt.intermediate
+C:\3ddddddddddd\App1\App1\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\3ddddddddddd\App1\App1\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZIATEST</Machine>
+    <WindowsUser>Zia</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>97625AC5100B812A9812BBBEE633888CA495FE4BFFEBE95FA25C174EB34EC920</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c2406540-f5cb-4ac5-a04c-3a3144ada6e4_1.0.0.0_neutral__60phjqt7bs6be</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c2406540-f5cb-4ac5-a04c-3a3144ada6e4_60phjqt7bs6be!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c2406540-f5cb-4ac5-a04c-3a3144ada6e4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Zia</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\3ddddddddddd\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-03T15:55:25.802</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-07-03T15:58:39.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-08T14:20:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-08T14:20:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-08T14:20:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-08T14:20:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\js\code.js">
+      <PackagePath>js\code.js</PackagePath>
+      <Modified>2013-07-03T15:54:55.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-07-03T15:54:55.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\js\three.js">
+      <PackagePath>js\three.js</PackagePath>
+      <Modified>2013-07-03T15:27:47.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-04-18T13:51:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\App1\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-07-03T15:55:25.675</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\">
+      <Name>Microsoft.WinJS.2.0.Preview</Name>
+      <Version>1.0.9431.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0.Preview, MinVersion=1.0.9431.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\Microsoft.WinJS.2.0.Preview.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
