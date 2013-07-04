@@ -1,33 +1,95 @@
 ﻿/// <reference path="three.js" />
-(function () {
+( function ()
+{
 
-    function example2_1() {
+    var renderer = null,
+		scene = null,
+		camera = null,
+		cube = null,
+		animating = false;
+    function example2_2()
+    {
         // Grab our container div
-        var container = document.getElementById("container");
+        var container = document.getElementById( "container" );
 
         // Create the Three.js renderer, add it to our div
-        var renderer = new THREE.WebGLRenderer();
-        renderer.setSize(container.offsetWidth, container.offsetHeight);
-        container.appendChild(renderer.domElement);
+        renderer = new THREE.WebGLRenderer( { antialias: true } );
+        renderer.setSize( container.offsetWidth, container.offsetHeight );
+        container.appendChild( renderer.domElement );
 
         // Create a new Three.js scene
-        var scene = new THREE.Scene();
+        scene = new THREE.Scene();
 
         // Create a camera and add it to the scene
-        var camera = new THREE.PerspectiveCamera(45, container.offsetWidth / container.offsetHeight, 1, 4000);
-        camera.position.set(0, 0, 2);
-        scene.add(camera);
+        camera = new THREE.PerspectiveCamera( 45, container.offsetWidth / container.offsetHeight, 1, 200 );
+        camera.position.set( 0, 10, 0 );
+        camera.rotation.x = -Math.PI / 2;
+        scene.add( camera );
 
-        // Now, create a rectangle and add it to the scene
-        var geometry = new THREE.PlaneGeometry(1, 1);
-        var mesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial());
-        scene.add(mesh);
+        // Create a directional light to show off the object
+        var light = new THREE.DirectionalLight( 0xffffff, 1.5 );
+        light.position.set( 0, 1, 0 );
 
-        // Render it
-        renderer.render(scene, camera);
+        scene.add( light );
+
+        // Create a shaded, texture-mapped cube and add it to the scene
+        // First, create the texture map
+        var mapUrl = "/images/molumen_small_funny_angry_monster.jpg";
+        var map = THREE.ImageUtils.loadTexture( mapUrl );
+
+        // Now, create a Phong material to show shading; pass in the map
+        var material = new THREE.MeshPhongMaterial( { map: map } );
+
+        // Create the cube geometry
+        var geometry = new THREE.CubeGeometry( 1, 1, 1 );
+
+        // And put the geometry and material together into a mesh
+        cube = new THREE.Mesh( geometry, material );
+
+        // Turn it toward the scene, or we won't see the cube shape!
+        //cube.rotation.x = Math.PI / 5;
+        //cube.rotation.y = Math.PI / 5;
+
+        // Add the cube to our scene
+        scene.add( cube );
+
+        // Add a mouse up handler to toggle the animation
+        addMouseHandler();
+
+        // Run our render loop
+        run();
     }
 
-    WinJS.Namespace.define("webglBook2", {
-        example2_1: example2_1
-    });
-})();
+    function run()
+    {
+        // Render the scene
+        renderer.render( scene, camera );
+
+        // Spin the cube for next frame
+        if ( animating )
+        {
+            cube.rotation.y -= 0.01;
+        }
+
+        // Ask for another frame
+        requestAnimationFrame( run );
+    }
+
+    function addMouseHandler()
+    {
+        var dom = renderer.domElement;
+
+        dom.addEventListener( 'mouseup', onMouseUp, false );
+    }
+
+    function onMouseUp( event )
+    {
+        event.preventDefault();
+
+        animating = !animating;
+    }
+
+    WinJS.Namespace.define( "webglBook2", {
+        example2_2: example2_2
+    } );
+} )();
