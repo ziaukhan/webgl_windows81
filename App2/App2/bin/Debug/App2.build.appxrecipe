@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZIATEST</Machine>
+    <WindowsUser>Zia</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\3ddddddddddd\gitdir\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\css\webglbook.css">
+      <PackagePath>css\webglbook.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\images\molumen_small_funny_angry_monster.jpg">
+      <PackagePath>images\molumen_small_funny_angry_monster.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\js\code.js">
+      <PackagePath>js\code.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\js\RequestAnimationFrame.js">
+      <PackagePath>js\RequestAnimationFrame.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\js\three.js">
+      <PackagePath>js\three.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\3ddddddddddd\gitdir\App2\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\">
+      <Name>Microsoft.WinJS.2.0.Preview</Name>
+      <Version>1.0.9431.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0.Preview, MinVersion=1.0.9431.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\Microsoft.WinJS.2.0.Preview.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
